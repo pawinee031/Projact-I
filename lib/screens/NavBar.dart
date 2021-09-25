@@ -22,7 +22,7 @@ class _NavBarState extends State<NavBar> {
     return GestureDetector(
       onTap: onTap,
       child: AnimatedContainer(
-  
+  //
         duration: Duration(milliseconds: 500),
         // color : index == currentIndex ? Colors.white : Colors.green,
         decoration: index == currentIndex
