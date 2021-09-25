@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fluttertest/screens/NavBar.dart';
 import 'package:fluttertest/screens/login_screen.dart';
 import 'package:fluttertest/screens/booking.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
 
           // Once complete, show your application
           if (snapshot.connectionState == ConnectionState.done) {
-            return LoginScreen(); ///////////////////////////////////////////////
+            return NavBar(); ///////////////////////////////////////////////
           }
 
           // Otherwise, show something whilst waiting for initialization to complete

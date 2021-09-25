@@ -7,8 +7,7 @@ class Booking extends StatelessWidget {
  @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Booking'),
-      ),
+      
       body: Container(
         child: Column(
           children: [
@@ -18,31 +17,31 @@ class Booking extends StatelessWidget {
                 child: Text('Page 1'),
               ),
             ),
-            Padding(padding: const EdgeInsets.all(8.0),
-            child: RaisedButton(
-                              elevation: 5.0,
-                              onPressed: () async {
-                                Navigator.pushReplacement(
-                                    context,
-                                    MaterialPageRoute(
-                                        builder: (context) => LoginScreen()));
-                              },
-                              padding: EdgeInsets.all(15.0),
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(30.0),
-                              ),
-                              color: Color(0xFF6D9773),
-                              child: Text(
-                                'BACK',
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  letterSpacing: 1.5,
-                                  fontSize: 10.0,
-                                  fontWeight: FontWeight.bold,
-                                  fontFamily: 'OpenSans',
-                                ),
-                              ),
-                            ),)
+            // Padding(padding: const EdgeInsets.all(8.0),
+            // child: RaisedButton(
+            //                   elevation: 5.0,
+            //                   onPressed: () async {
+            //                     Navigator.pushReplacement(
+            //                         context,
+            //                         MaterialPageRoute(
+            //                             builder: (context) => LoginScreen()));
+            //                   },
+            //                   padding: EdgeInsets.all(15.0),
+            //                   shape: RoundedRectangleBorder(
+            //                     borderRadius: BorderRadius.circular(30.0),
+            //                   ),
+            //                   color: Color(0xFF6D9773),
+                              // child: Text(
+                              //   'BACK',
+                              //   style: TextStyle(
+                              //     color: Colors.white,
+                              //     letterSpacing: 1.5,
+                              //     fontSize: 20.0,
+                              //     fontWeight: FontWeight.bold,
+                              //     fontFamily: 'OpenSans',
+                              //   ),
+                              // ),
+                            // ),
           ],
         ),
       ),

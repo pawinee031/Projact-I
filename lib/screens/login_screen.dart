@@ -182,8 +182,8 @@ class _LoginScreenState extends State<LoginScreen> {
 
         onPressed: () async {
           
-          Navigator.pushReplacement(
-              context, MaterialPageRoute(builder: (context) => Booking()));
+          // Navigator.pushReplacement(
+          //     context, MaterialPageRoute(builder: (context) => Booking()));
         },
         padding: EdgeInsets.all(15.0),
         shape: RoundedRectangleBorder(
@@ -191,7 +191,7 @@ class _LoginScreenState extends State<LoginScreen> {
         ),
         color: Color(0xFF6D9773),
         child: Text(
-          'จองคิว',
+          'BACK',
           style: TextStyle(
             color: Colors.white,
             letterSpacing: 1.5,

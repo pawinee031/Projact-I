@@ -33,6 +33,8 @@ dependencies:
   firebase: ^9.0.1
   shared_preferences: ^2.0.5
   cloud_firestore: ^1.0.5
+  material_design_icons_flutter: ^4.0.5855
+  
 
 
 dev_dependencies:
