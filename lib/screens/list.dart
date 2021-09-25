@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/material.dart';
 import 'package:fluttertest/action/regis.dart';
 import 'package:fluttertest/screens/AddProduct.dart';
 
