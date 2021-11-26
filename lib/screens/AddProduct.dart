@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:fluttertest/action/regis.dart';
 import 'package:fluttertest/screens/list.dart';
-
 import 'package:fluttertest/screens/login_screen.dart';
 import 'package:fluttertest/utilities/constants.dart';
 
